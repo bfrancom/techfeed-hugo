@@ -4,27 +4,32 @@ favicon = "images/favicon.png"
 # logo
 logo = "images/logo.png"
 # use `x` with logo_width, example: "100x"
-logo_width = "150px"
+logo_width = "150x"
 # logo text will only show when logo is missing.
 logo_text = "TechFeed"
 # OpenGraph / Twitter Card metadata
 description = "This is meta description"
-author = "Gethugothemes"
+author = "Ben Francom"
 image = "images/logo.png" # this image will be used as fallback if a page has no image of its own
 # main sections
 mainSections = ["blog"]
 # contact form action
 contact_form_action = "#" # contact form works with https://formspree.io
 # copyright text
-copyright = "Designed & Developed by [GetHugoThemes](https://gethugothemes.com)"
+copyright = "Designed & Developed by Ben Francom using [GetHugoThemes](https://gethugothemes.com)"
 # custom script on header, example: custom_script= "<script>console.log(\"Hello World\")</script>" 
 custom_script= "" 
+
+# banner
+[banner]
+content = "Ben Francom"
+bg_image= "images/banner.png"
 
 # author
 [author_block]
 title= "WELCOME TO MY BLOG"
 image= "images/author.jpg"
-content= "My name is Linda Smith. I am a writer, I like to travel and I love to photograph beautiful nature places and happy peoples."
+content= "My name is Ben Francom. I am a tech leader that also dabbles in art, writing, and a bunch of other stuff."
 
 # Preloader
 [preloader]
@@ -39,18 +44,18 @@ content = "This site uses cookies. By continuing to use this website, you agree 
 button = "I Accept"
 
 ############################# social site ########################
-[[social]]
-icon = "fab fa-facebook-f"
-link = "#"
-
-[[social]]
-icon = "fab fa-twitter"
-link = "#"
-
-[[social]]
-icon = "fab fa-instagram"
-link = "#"
-
-[[social]]
-icon = "fab fa-dribbble"
-link = "#"
+#[[social]]
+#icon = "fab fa-facebook-f"
+#link = "#"
+#
+#[[social]]
+#icon = "fab fa-twitter"
+#link = "#"
+#
+#[[social]]
+#icon = "fab fa-instagram"
+#link = "#"
+#
+#[[social]]
+#icon = "fab fa-dribbble"
+#link = "#"
